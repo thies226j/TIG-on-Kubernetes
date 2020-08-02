@@ -5,10 +5,10 @@ metadata:
   name: telegraf-secrets
 type: Opaque
 stringData:
-  INFLUXDB_DB: kube
-  INFLUXDB_URL: http://influxdb:8086
-  INFLUXDB_USER: root
-  INFLUXDB_USER_PASSWORD: Thies040302!
+  INFLUXDB_DB: 'kube'
+  INFLUXDB_URL: 'http://influxdb:8086'
+  INFLUXDB_USER: 'root'
+  INFLUXDB_USER_PASSWORD: 'Thies040302!'
 ---
 kind: ConfigMap
 apiVersion: v1
