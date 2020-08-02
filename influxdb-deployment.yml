@@ -13,7 +13,8 @@ spec:
   strategy:
     type: Recreate
   selector:
-    app: influxdb
+    matchLabels:
+      app: influxdb
   template:
     metadata:
       labels:
