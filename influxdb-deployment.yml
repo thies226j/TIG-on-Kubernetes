@@ -12,6 +12,8 @@ metadata:
 spec:
   strategy:
     type: Recreate
+  selector:
+    app: influxdb
   template:
     metadata:
       labels:
